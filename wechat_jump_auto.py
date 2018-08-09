@@ -35,6 +35,8 @@ except Exception as ex:
     print('请将脚本放在项目根目录中运行')
     print('请检查项目根目录中的 common 文件夹是否存在')
     exit(1)
+
+
 adb = auto_adb()
 VERSION = "1.1.4"
 
